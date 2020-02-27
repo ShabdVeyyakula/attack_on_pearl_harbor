@@ -1,11 +1,10 @@
-import 'package:attack_on_pearl_harbor/choose_your_character.dart';
-import 'package:attack_on_pearl_harbor/pearharbordetails.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tindercard/flutter_tindercard.dart';
 import 'instructuins.dart';
 import 'background.dart';
 import 'citations.dart';
+import 'main.dart';
+
 
 
 void main() => runApp(MaterialApp(home: (MyApp())));
@@ -18,22 +17,18 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Simonetta', canvasColor: Colors.brown[900]),
       //home: Game(),
-      routes: {
-        '/': (ctx) => ChooseYourCharacter(),
-        Instruction.routeName: (ctx) => Instruction(),
-        Background.routeName: (ctx) => Background(),
-      },
+      
     );
   }
 }
 //Navigator.pushNamed(context, Instruction.routeName);
 
-class Game extends StatefulWidget {
+class Japan extends StatefulWidget {
   @override
-  _GameState createState() => _GameState();
+  _JapanState createState() => _JapanState();
 }
 
-class _GameState extends State<Game> {
+class _JapanState extends State<Japan> {
   var uiManagementInstance = UIManagement();
 
   List gameQuestion = [
@@ -101,7 +96,7 @@ class _GameState extends State<Game> {
         backgroundColor: Colors.brown.shade900,
         elevation: 0,
         title: Text(
-          'America',
+          'Japan',
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
@@ -249,7 +244,7 @@ class UIManagement {
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
              
-              
+             
             ],
           ),
         ),

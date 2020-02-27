@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "346313090188",
+    "firebase_url": "https://aoph-choose-your-own-adventure.firebaseio.com",
+    "project_id": "aoph-choose-your-own-adventure",
+    "storage_bucket": "aoph-choose-your-own-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346313090188:android:9cca536e23bc04a27f47a9",
+        "android_client_info": {
+          "package_name": "com.veyyakula.attack_on_pearl_harbor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346313090188-is08mthjcnfuiaslkc1097pcbsdc8mv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOs9P6GbQIvR_nD3OZT_49jboeCIcDLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346313090188-is08mthjcnfuiaslkc1097pcbsdc8mv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
